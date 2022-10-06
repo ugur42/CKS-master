@@ -9,7 +9,7 @@ test system
 """
 import numpy as np
 from qiskit.algorithms.linear_solvers.numpy_linear_solver import NumPyLinearSolver
-from QiskitHHL_to_CKS_2 import CKS
+from CKS_Implementation import CKS
 from qiskit.algorithms.linear_solvers.matrices.tridiagonal_toeplitz import TridiagonalToeplitz
 from qiskit.quantum_info import Statevector
 from qiskit.algorithms.linear_solvers.numpy_linear_solver import NumPyLinearSolver
