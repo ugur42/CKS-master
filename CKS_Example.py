@@ -14,6 +14,10 @@ from qiskit.algorithms.linear_solvers.matrices.tridiagonal_toeplitz import Tridi
 from qiskit.quantum_info import Statevector
 from qiskit.algorithms.linear_solvers.numpy_linear_solver import NumPyLinearSolver
 
+"""
+To do: Apply preconditioning to reduce condition number
+"""
+
 E = 210000
 A = 100
 F = 10000
